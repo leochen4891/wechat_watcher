@@ -9,6 +9,8 @@ logger.setLevel(logging.DEBUG)
 # login
 #itchat.auto_login()
 
+# get all chatrooms (may not have inactive rooms)
+# chatrooms = itchat.get_chatrooms()
 
 def get_lrsg_rooms(chatrooms):
 	# read group1 and group2 chatroom name
